@@ -1,0 +1,90 @@
+body {
+    background: -webkit-linear-gradient(top, #61bbf0, #dbe4e9);
+    background-color: whitesmoke;
+}
+ul {
+    list-style-type: none;
+    float: left;
+    margin-top: -55px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.7s;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+#card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px black;
+    height: 800px;
+    margin: 6rem auto 8.1rem auto;
+    width: 1200px;
+}
+
+#card-content {
+padding: 12px 44px;
+}
+.header {
+    text-align: center;
+    font-family: sans-serif;
+}
+.article {
+    text-align: center;
+}
+.article h2 {
+    font-size: 35px;
+}
+.article p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+.header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.article {
+    font-family: sans-serif;
+}
+.table {
+    position: relative;
+    left: 2%;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 4em auto;
+    width: 40%;
+}
+.table th {
+    border-left: 1px solid #acabab;
+    border-bottom: 1px solid #949494;
+}
+.table tr {
+    padding-left: 20px;
+    border-left: 0;
+}
+}
+.table td {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;;
+}
+.footer {
+    text-align: center;
+}
